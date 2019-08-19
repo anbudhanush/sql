@@ -3,4 +3,4 @@ as
 select name from [dbo].dummytable ; 
 
 create procedure dbo.testproc
-as Select 1 ;
+as Select getdate() ; 
